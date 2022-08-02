@@ -487,3 +487,5 @@ footer span {
         padding: 5px 15px;
     }
 }
+
+@media screen and (max-width: 780px) {}
