@@ -210,3 +210,47 @@ header .menu ul li a {
     text-transform: uppercase;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
+
+#news .container .right .box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(203, 221, 249, 0.3);
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+#news .container .right .box .data {
+    padding: 20px;
+}
+
+#news .container .right .box .data span {
+    background: #f9fcff;
+    padding: 5px 15px;
+    color: #203758;
+    font-size: 0.9rem;
+}
+
+#news .container .right .box .data p {
+    padding: 15px;
+    border: 1px solid #f9fcff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #f9fcff;
+    border-radius: 5px;
+}
+
+#news .container .right .box .info span {
+    color: #f9fcff;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+#news .container .right .box .info p {
+    color: #e4e4e4;
+    font-size: 0.9rem;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
