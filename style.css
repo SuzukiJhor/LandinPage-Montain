@@ -41,8 +41,44 @@ header .menu ul li a {
     font-size: 1.1rem;
 }
 
+header .menu-mobile {
+    display: none;
+    width: 30%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 99;
+}
 
-/* mains */
+header .menu-mobile ul il {
+    padding: 60px 0;
+}
+
+header .menu-mobile ul li a {
+    text-decoration: none;
+    color: #f9fcff;
+    font-weight: 500;
+}
+
+header .menu_btn {
+    position: fixed;
+    right: 60px;
+    z-index: 99;
+}
+
+header .menu_btn img {
+    display: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+/* main */
 
 #home .container {
     width: 100;
