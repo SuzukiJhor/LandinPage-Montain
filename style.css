@@ -341,7 +341,7 @@ header .menu ul li a {
     padding-top: 5px;
 }
 
-#contact .container .card .box buttom {
+#contact .container .card .box button {
     padding: 10px;
     border: none;
     background: #f9fcff;
@@ -364,4 +364,126 @@ footer {
 footer span {
     line-height: 60px;
     color: #f9fcff;
+}
+
+
+/*   responsive  */
+
+@media screen and (max-width: 1060px) {
+    /* home */
+    #home .container {
+        background-size: cover;
+    }
+    #home .container .content {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    #home .container .content .h1 {
+        font-size: 14px;
+    }
+    #home .container .content p {
+        width: 500px;
+        font-size: 0.9rem;
+        margin-top: 30px;
+    }
+    #home .container .content button {
+        margin-top: 50px;
+    }
+    /* about */
+    #about .container h1 {
+        margin-top: 20px;
+        font-size: 2.5rem;
+    }
+    #about .container .call {
+        width: 60%;
+    }
+    #about .container .call .left,
+    #about .container .call .right {
+        font-size: 0.9rem;
+    }
+    /* news */
+    #news .container {
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #news .container .left {
+        width: 80%;
+        display: block;
+        margin-top: 30px;
+    }
+    #news .container .left h2 {
+        margin: 0 auto;
+    }
+    #news .container .left p {
+        text-align: center;
+    }
+    #news .container .left h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    #news .container .left span {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+    #news .container .rigth {
+        width: 40%;
+        height: 55vh;
+    }
+    #news .container .right h3 {
+        text-align: center;
+    }
+    #news .container .right .box {
+        background: rgba(14, 27, 46, 0.6);
+    }
+    #news .container .right .box .data span {
+        font-size: 0.8rem;
+    }
+    #news .container .right .box .data p {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+    #news .container .right .box .info span {
+        font-size: 0.9rem;
+        color: #f9fcff;
+        font-weight: 700;
+    }
+    #news .container .right .box .info p {
+        color: #e4e4e4;
+        font-size: 0.6rem;
+        letter-spacing: 5px;
+    }
+    /* contact */
+    #contact .container .center {
+        position: relative;
+        bottom: 10px;
+    }
+    #contact .container .center h1 {
+        font-size: 2rem;
+    }
+    #contact .container .card {
+        padding: 20px;
+    }
+    #contact .container .card .box {
+        width: 30%;
+        height: 50%;
+    }
+    #contact .container .card .box img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    #contact .container .card .box h3 {
+        font-size: 0.8rem;
+    }
+    #contact .container .card .box p {
+        margin-bottom: 10px;
+    }
+    #contact .container .card .box button {
+        padding: 5px 15px;
+    }
 }
