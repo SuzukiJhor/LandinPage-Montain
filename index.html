@@ -28,10 +28,10 @@
 
         <div class="menu-mobile">
             <ul>
-                <li><a href="#home" class="home_click">Home</a></li>
-                <li><a href="#about" class="about_click">About</a></li>
-                <li><a href="#news" class="news_click">News</a></li>
-                <li><a href="#contact" class="contact_click">Contact</a></li>
+                <li><a href="#home" onclick="hide()">Home</a></li>
+                <li><a href="#about" onclick="hide()">About</a></li>
+                <li><a href="#news" onclick="hide()">News</a></li>
+                <li><a href="#contact" onclick="hide()">Contact</a></li>
 
             </ul>
         </div>
@@ -182,15 +182,14 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-        const hidez = () => {
-            $('.menu-mobile').toggle();
-        }
-
         $(document).ready(() => {
             $(".menu_btn").click(() => {
                 $(".menu-mobile").slideToggle("slow");
-            })
+            });
         })
+        const hide = () => {
+            $('.menu-mobile').hide();
+        }
     </script>
 
 </body>
