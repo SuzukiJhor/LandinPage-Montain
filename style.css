@@ -570,4 +570,33 @@ footer span {
         width: 80%;
         margin-top: 80px;
     }
+    #news .container .right h3 {
+        padding: 10px;
+    }
+    #news .container .right .info span {
+        font-size: 0.8rem;
+    }
+    /* contact */
+    #contact .container .center {
+        height: 30vh;
+    }
+    #contact .container .card {
+        height: 60vh;
+        align-items: center;
+        flex-direction: column;
+    }
+    #contact .container .card .box {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    #contact .container .card. .box h3 {
+        margin-bottom: 5px;
+    }
+    #contact .container .card .box p {
+        font-size: 0.7rem;
+    }
+    #contact .container .card .box button {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
 }
